@@ -159,4 +159,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-\recommendation_system_research.ipynb
+.\recommendation_system_research.ipynb
