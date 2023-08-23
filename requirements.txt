@@ -1,3 +1,6 @@
 pandas
 numpy
 torch
+pytorch_lightning
+scikit-learn
+flask
