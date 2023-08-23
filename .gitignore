@@ -2,6 +2,7 @@
 recommendation_system_research.ipynb
 test.py
 src/artifact
+logs/
 
 
 # Byte-compiled / optimized / DLL files
