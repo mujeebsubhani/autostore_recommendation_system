@@ -9,7 +9,10 @@ ServiceDataIngestionArtifactPaths = namedtuple("ServiceDataIngestionArtifactPath
     "data_ingestion_artifact_dir",
     "collaborative_filtering_clean_data_dir",
     "collaborative_filtering_ingested_train_data_dir",
-    "collaborative_filtering_ingested_test_data_dir"])
+    "collaborative_filtering_ingested_test_data_dir",
+    "collaborative_filtering_clean_data_file",
+    "collaborative_filtering_ingested_train_data_file",
+    "collaborative_filtering_ingested_test_data_file"])
 
 ServiceDataModelingArtifactPaths = namedtuple("ServiceDataModelingArtifactPaths", [
 

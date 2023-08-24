@@ -2,15 +2,18 @@
 source_pipeline_config:
   root_pipeline_dir: src
   service_pipeline_dir: service
-  artifact_dir : artifacts
+  artifact_dir : artifact
 
 data_ingestion_config:
   data_ingestion_artifact_dir: data_ingestion
   recommendation_raw_data_dir: recommendation_raw_data
   collaborative_filtering_clean_data_dir: collaborative_filtering_clean_data
+  collaborative_filtering_clean_data_file: collaborative_filtering_clean_data.csv
   collaborative_filtering_ingested_data_dir: collaborative_filtering_ingested_data
   collaborative_filtering_ingested_train_data_dir: train_data
   collaborative_filtering_ingested_test_data_dir: test_data
+  collaborative_filtering_ingested_test_data_file: collaborative_filtering_test_data.csv
+  collaborative_filtering_ingested_train_data_file: collaborative_filtering_train_data.csv
 
 data_modeling_config:
   data_modeling_artifact_dir: data_modeling
